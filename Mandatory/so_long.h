@@ -6,7 +6,7 @@
 /*   By: mcherki <mcherki@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/03/17 12:48:11 by mcherki           #+#    #+#             */
-/*   Updated: 2022/03/19 16:38:57 by mcherki          ###   ########.fr       */
+/*   Updated: 2022/03/19 18:03:22 by mcherki          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -38,7 +38,6 @@ typedef struct s_game
 	void	*img_player;
 	void	*img_colect;
 	void	*img_exit;
-	void	*img_enemie;
 	int		map_w;
 	int		map_h;
 	int		img_w;
