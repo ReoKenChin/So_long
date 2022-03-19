@@ -6,7 +6,7 @@
 /*   By: mcherki <mcherki@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/03/13 20:55:24 by mcherki           #+#    #+#             */
-/*   Updated: 2022/03/17 15:14:18 by mcherki          ###   ########.fr       */
+/*   Updated: 2022/03/19 13:15:42 by mcherki          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -57,8 +57,6 @@ int	content_check(t_game *game)
 {
 	if (obj_check(game, 'P') > 1)
 		return (ft_printf("the map has more than 1 player!!"), 1);
-	else if (obj_check(game, 'E') > 1)
-		return (ft_printf("the map has more than 1 exit!!"), 1);
 	if (!obj_check(game, 'P') && !obj_check(game, 'C') && !obj_check(game, 'E'))
 		return (ft_printf("all of the objects are missing!!"), 1);
 	else if (!obj_check(game, 'P') && !obj_check(game, 'C'))
