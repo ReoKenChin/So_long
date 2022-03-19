@@ -6,7 +6,7 @@
 /*   By: mcherki <mcherki@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/03/15 18:32:32 by mcherki           #+#    #+#             */
-/*   Updated: 2022/03/19 11:42:22 by mcherki          ###   ########.fr       */
+/*   Updated: 2022/03/19 18:25:50 by mcherki          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -59,7 +59,7 @@ void	exit_game(t_game *game)
 {
 	free_map(game);
 	mlx_destroy_window(game->mlx, game->win);
-	ft_printf("Game Over!!");
+	ft_printf("\033[0;31mGAME OVER LOSER\n\n\033[0m");
 	free(game->mlx);
 	exit(EXIT_SUCCESS);
 }
