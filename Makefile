@@ -6,7 +6,7 @@
 #    By: mcherki <mcherki@student.42.fr>            +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2022/03/10 20:13:36 by mcherki           #+#    #+#              #
-#    Updated: 2022/03/19 11:44:55 by mcherki          ###   ########.fr        #
+#    Updated: 2022/03/19 15:48:47 by mcherki          ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -93,4 +93,4 @@ fclean: clean
 	
 re: fclean all
 
-.PHONY : re clean fclean all
+.PHONY : re clean fclean all bonus
