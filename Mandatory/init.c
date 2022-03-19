@@ -6,7 +6,7 @@
 /*   By: mcherki <mcherki@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/03/15 18:35:11 by mcherki           #+#    #+#             */
-/*   Updated: 2022/03/17 14:59:57 by mcherki          ###   ########.fr       */
+/*   Updated: 2022/03/19 16:14:44 by mcherki          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,6 +21,4 @@ void	map_init(t_game *game)
 	game->map_w = 0;
 	game->p_x = 0;
 	game->p_y = 0;
-	game->moves = 0;
-	game->loop = 0;
 }
