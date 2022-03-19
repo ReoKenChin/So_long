@@ -6,7 +6,7 @@
 /*   By: mcherki <mcherki@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/03/17 12:48:11 by mcherki           #+#    #+#             */
-/*   Updated: 2022/03/19 16:14:33 by mcherki          ###   ########.fr       */
+/*   Updated: 2022/03/19 16:18:30 by mcherki          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -33,7 +33,6 @@ typedef struct s_game
 	void	*mlx;
 	void	*win;
 	char	**map;
-	void	*img_die;
 	void	*img_backg;
 	void	*img_wall;
 	void	*img_player;

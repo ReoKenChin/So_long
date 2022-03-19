@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   so_long_bonus.h                                    :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: mcherki <marvin@42.fr>                     +#+  +:+       +#+        */
+/*   By: mcherki <mcherki@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/03/19 11:39:21 by mcherki           #+#    #+#             */
-/*   Updated: 2022/03/19 11:40:23 by mcherki          ###   ########.fr       */
+/*   Updated: 2022/03/19 16:18:43 by mcherki          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -33,7 +33,6 @@ typedef struct s_game
 	void	*mlx;
 	void	*win;
 	char	**map;
-	void	*img_die;
 	void	*img_backg;
 	void	*img_wall;
 	void	*img_player;
