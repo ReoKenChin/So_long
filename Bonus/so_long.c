@@ -6,7 +6,7 @@
 /*   By: mcherki <mcherki@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/03/17 12:42:47 by mcherki           #+#    #+#             */
-/*   Updated: 2022/03/19 13:00:01 by mcherki          ###   ########.fr       */
+/*   Updated: 2022/03/19 16:37:20 by mcherki          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,17 +14,17 @@
 
 void	validate(t_game *game)
 {
+	if (!check_rectangular(game))
+	{
+		ft_printf("the map is not rectangular!!\n");
+		exit(EXIT_FAILURE);
+	}
 	if (!map_correct_form(game))
 		exit(EXIT_FAILURE);
 	if (line_check(game))
 		exit(EXIT_FAILURE);
 	if (map_0(game))
 		exit(EXIT_FAILURE);
-	if (!check_rectangular(game))
-	{
-		ft_printf("the map is not rectangular!!\n");
-		exit(EXIT_FAILURE);
-	}
 	if (!walls_check(game))
 	{
 		ft_printf("Walls error!\n");

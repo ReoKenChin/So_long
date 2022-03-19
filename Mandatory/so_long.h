@@ -6,7 +6,7 @@
 /*   By: mcherki <mcherki@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/03/17 12:48:11 by mcherki           #+#    #+#             */
-/*   Updated: 2022/03/19 16:18:30 by mcherki          ###   ########.fr       */
+/*   Updated: 2022/03/19 16:38:57 by mcherki          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -48,6 +48,7 @@ typedef struct s_game
 	int		n_exit;
 	int		p_x;
 	int		p_y;
+	int		moves;
 }	t_game;
 
 int		check_extention(char *str);

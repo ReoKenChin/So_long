@@ -6,7 +6,7 @@
 /*   By: mcherki <mcherki@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/03/17 12:46:57 by mcherki           #+#    #+#             */
-/*   Updated: 2022/03/17 13:44:20 by mcherki          ###   ########.fr       */
+/*   Updated: 2022/03/19 16:41:59 by mcherki          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -64,14 +64,4 @@ char	**map_filling_up(char *line, t_game *game)
 		i++;
 	}
 	return (game->map[k] = word_dup(line, j, i), game->map[++k] = 0, game->map);
-}
-
-void	check_enemy(t_game game)
-{
-	if (game.e_x == 0 && game.e_y == 0)
-	{
-		ft_printf("we can't find the enemy!!");
-		free(game.map);
-		exit(EXIT_FAILURE);
-	}
 }
